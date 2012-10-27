@@ -1,48 +1,18 @@
-#linux
-
-.*
-!.gitignore
-*~
-
-# KDE
-
-.directory
-
-
-#vim
-
 .*.sw[a-z]
 *.un~
 Session.vim
 
-#netbeans
+# Windows image file caches
+Thumbs.db 
 
-nbproject/
-nbactions.xml
-
-#textmate
+# Folder config file
+Desktop.ini
 
 *.tmproj
 *.tmproject
 tmtags
 
-#symfony2
-
-*/logs/*
-*/cache/*
-web/uploads/*
-web/bundles/*
-
-#netbeans
-
-*/config/database.php
-*/system/logs/log-*.php
-*/system/cache/*
-*/system/cache/!index.html
-
-#mac
 .DS_Store
-Icon?
 
 # Thumbnails
 ._*
@@ -50,3 +20,33 @@ Icon?
 # Files that might appear on external disk
 .Spotlight-V100
 .Trashes
+
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+*/config/development
+*/logs/log-*.php
+*/logs/!index.html
+*/cache/*
+*/cache/!index.html
+
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
+
+node_modules
+npm-debug.log
